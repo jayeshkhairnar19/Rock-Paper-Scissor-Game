@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(29, 175, 220) !important;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    padding: 2rem;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.image img{
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    gap: 3rem;
+    background-color: black;
+    color: wheat;
+    font-size: 2rem;
+    width: 50%;
+    margin-left: 22rem;
+}
+
+.score .userScore{
+    border: 2px solid black;
+}
+.score .compScore{
+    border: 2px solid black;
+
+}
+
+.msg-container{
+    display: flex;
+    background-color: rgb(241, 243, 243);
+    color: rgb(22, 21, 21);
+    justify-content: center;
+    font-weight: bolder;
+    margin-top: 1rem;
+    height: 2rem;
+    align-items: center;
+    border-radius: 5rem;
+    
+}
